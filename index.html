@@ -1,405 +1,303 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Fuentes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
-    <!--CSS Enlazado (externo) -->
-    <link rel="stylesheet" href="css/style.css">
+  <!-- CSS Enlazado -->
+  <link rel="stylesheet" href="css/style.css">
 
-    <title>Cornerstone Enterprise Solutions</title>
-    <meta name="robots" content="max-image-preview:large">
-  </head>
-      <!-- ═══════════════════════════════════════════════════════════
-         SCRIPTS
-         ═══════════════════════════════════════════════════════════ -->
-    <script src="js/main.js" defer></script>
-    <script src="js/home.js" defer></script>
-  <body class="home wp-singular page-template page-template-inicio page-template-inicio-php page page-id-10 wp-theme-astra ast-desktop ast-plain-container ast-no-sidebar astra-4.11.10 ast-single-post ast-inherit-site-logo-transparent ast-hfb-header ast-normal-title-enabled">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="images/CES.png">
+  <!-- Favicon -->
+<link rel="icon" type="image/png" sizes="32x32" href="images/CES.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/CES.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/CES.png">
 
-    <!-- ═══════════════════════════════════════════════════════════
-         HEADER
-         ═══════════════════════════════════════════════════════════ -->
-    <div id="grt-header-component-wrapper">
-      <header class="grt-header">
-        <div class="grt-header-container">
-          <div style="display: flex; align-items: center; gap: 15px;">
-            <a href="./" class="grt-logo">
-              <img src="https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72t9gECBA8sZPlsJcQIcM2hhwe943eWw-_0BqQ2NzYfa8CL0a1NV0oWa6FaqG7vceu0l9Blr-nlsnC3vHagB7t-vtQUUVtwvjbAQlhQsxBSI9LT4-68Jg3_9kHznlyKYkhpK1UgRUWkIKZ1d7DbJnOFd0pJRarHeIgCIAr2TM8hycLhLWHPlGWZdbTDV89wfoxMltcyB5C4gW-GteI4A_LAwYsXsvle_LD_cscEP=w1280" class="attachment-large size-large" alt="" decoding="async" fetchpriority="high" alt="Cornerstone Enterprise Solutions Logo">
-            </a>
-            <span class="grt-brand-badge">Cornerstone Enterprise Solutions</span>
-          </div>
-          <nav class="grt-nav-menu">
-            <ul class="grt-nav-list">
-              <li><a href="./">Home</a></li>
-              <li><a href="/services.html">Services</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <div class="grt-header-cta">
-              <a href="contact.html#get-in-touch">Get a Free Estimate</a>            </div>
-          </nav>
-          <button class="grt-hamburger-menu" id="grt-hamburger-menu" aria-label="Abrir menú">
-            <span></span><span></span><span></span>
-          </button>
+  <title>Cornerstone Enterprise Solutions</title>
+  <meta name="robots" content="max-image-preview:large">
+</head>
+<body class="home">
+
+  <!-- ═══════════════════════════════════════════════════════════
+       HEADER
+       ═══════════════════════════════════════════════════════════ -->
+  <div id="grt-header-component-wrapper">
+    <header class="grt-header">
+      <div class="grt-header-container">
+        <div style="display: flex; align-items: center; gap: 15px;">
+          <a href="./" class="grt-logo">
+            <img src="images/CES.png" alt="Cornerstone Enterprise Solutions Logo">
+          </a>
+          <span class="grt-brand-badge">Cornerstone Enterprise Solutions</span>
         </div>
-      </header>
-      <div class="grt-header-spacer" id="grt-header-spacer"></div>
-
-      <!-- Menú móvil -->
-      <div class="grt-mobile-menu-modal" id="grt-mobile-menu-modal">
-        <button class="grt-close-menu-button" id="grt-close-menu-button" aria-label="Cerrar menú">
-          <span></span><span></span>
+        <nav class="grt-nav-menu">
+          <ul class="grt-nav-list">
+            <li><a href="./" class="is-active">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <div class="grt-header-cta">
+            <a href="contact.html#get-in-touch">Get a Free Estimate</a>
+          </div>
+        </nav>
+        <button class="grt-hamburger-menu" id="grt-hamburger-menu" aria-label="Open menu">
+          <span></span><span></span><span></span>
         </button>
-        <div class="grt-mobile-logo">
-          <a href="./">
-            <img src="https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72t9gECBA8sZPlsJcQIcM2hhwe943eWw-_0BqQ2NzYfa8CL0a1NV0oWa6FaqG7vceu0l9Blr-nlsnC3vHagB7t-vtQUUVtwvjbAQlhQsxBSI9LT4-68Jg3_9kHznlyKYkhpK1UgRUWkIKZ1d7DbJnOFd0pJRarHeIgCIAr2TM8hycLhLWHPlGWZdbTDV89wfoxMltcyB5C4gW-GteI4A_LAwYsXsvle_LD_cscEP=w1280" class="attachment-large size-large" alt="" decoding="async" fetchpriority="high">
-          </a>
+      </div>
+    </header>
+    <div class="grt-header-spacer" id="grt-header-spacer"></div>
+
+    <!-- Menú móvil -->
+    <div class="grt-mobile-menu-modal" id="grt-mobile-menu-modal">
+      <button class="grt-close-menu-button" id="grt-close-menu-button" aria-label="Close menu">
+        <span></span><span></span>
+      </button>
+      <div class="grt-mobile-logo">
+        <a href="./">
+          <img src="images/CES.png" alt="Cornerstone Enterprise Solutions Logo">
+        </a>
+      </div>
+      <ul class="grt-nav-list">
+        <li><a href="./">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="grt-header-cta">
+        <a href="contact.html#get-in-touch">Get a Free Estimate</a>
+      </div>
+      <div class="grt-social-links">
+        <a href="https://www.facebook.com/profile.php?id=61586643292944" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/cornerstonees25/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       CONTENIDO
+       ═══════════════════════════════════════════════════════════ -->
+  <div id="grt-inicio-wrapper">
+    <main>
+
+      <!-- HERO -->
+      <section class="hero-section">
+        <div class="container">
+          <div class="hero-grid animate-on-scroll animate-fade-up is-visible">
+            <div class="hero-text">
+              <h1>
+                Premium General Contracting
+                <br>
+                &amp; Home Remodeling
+                <br>
+                <span class="impact">Cornerstone Enterprise Solutions</span>
+              </h1>
+              <p>We transform California homes with structural integrity, elite craftsmanship, and transparent management. Licensed Class B Contractor (#1118503).</p>
+            </div>
+          </div>
         </div>
-        <ul class="grt-nav-list">
-          <li><a href="./">Home</a></li>
-          <li><a href="/services.html">Services</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <div class="grt-header-cta">
-          <a href="contact.html#get-in-touch">Get a Free Estimate</a>
+      </section>
+
+      <!-- SERVICIOS -->
+      <section class="property-listings-section section-padding">
+        <div class="container">
+          <div class="listings-header animate-on-scroll animate-fade-up is-visible">
+            <h2>Our Services</h2>
+          </div>
+          <div class="listings-grid">
+
+            <div class="property-card animate-on-scroll animate-fade-up stagger-1 is-visible">
+              <a href="services.html#kitchen">
+                <div class="property-image">
+                  <div class="property-image-slider">
+                    <img src="images/kitchen.jpg" alt="Luxury Kitchen & Bath Remodeling" class="active">
+                  </div>
+                  <div class="status-badge en_venta">Remodeling</div>
+                </div>
+                <div class="property-info">
+                  <p class="property-address">Luxury Kitchen &amp; Bath Remodeling</p>
+                  <p class="property-subtitle">Upgrade your daily living with custom cabinetry, premium stone countertops, and spa-like master showers.</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="property-card animate-on-scroll animate-fade-up stagger-2 is-visible">
+              <a href="services.html#adu">
+                <div class="property-image">
+                  <div class="property-image-slider">
+                    <img src="images/adu.jpg" alt="Home Additions & ADUs" class="active">
+                  </div>
+                  <div class="status-badge en_venta">Additions</div>
+                </div>
+                <div class="property-info">
+                  <p class="property-address">Home Additions &amp; ADUs</p>
+                  <p class="property-subtitle">Need more space? We specialize in structural home extensions and Accessory Dwelling Units (ADUs).</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="property-card animate-on-scroll animate-fade-up stagger-3 is-visible">
+              <a href="services.html#commercial">
+                <div class="property-image">
+                  <div class="property-image-slider">
+                    <img src="images/commercial.jpg" alt="Commercial Build-Outs" class="active">
+                  </div>
+                  <div class="status-badge en_venta">Commercial</div>
+                </div>
+                <div class="property-info">
+                  <p class="property-address">Commercial Build-Outs</p>
+                  <p class="property-subtitle">Functional, durable, and professional spaces for your business. On-time and on-budget.</p>
+                </div>
+              </a>
+            </div>
+
+          </div>
+          <div class="listings-footer animate-on-scroll animate-fade-up is-visible">
+            <a href="services.html" class="view-more-btn">View all services</a>
+          </div>
         </div>
-        <div class="grt-social-links">
-          <a href="https://www.facebook.com/profile.php?id=61586643292944" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-            <i class="fa-brands fa-facebook"></i>
-          </a>
-          <a href="https://www.instagram.com/cornerstonees25/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-            <i class="fa-brands fa-instagram"></i>
-          </a>
+      </section>
+
+      <!-- ABOUT US -->
+      <section class="info-section-2 section-padding">
+        <div class="container">
+          <div class="info-section-grid">
+            <div class="info-image animate-on-scroll animate-fade-left is-visible">
+              <img src="https://www.dailynews.com/wp-content/uploads/2019/06/LDN-L-SINGLE-FAMILY-0623-1.jpg?w=1572" alt="About Cornerstone">
+            </div>
+            <div class="info-text animate-on-scroll animate-fade-right is-visible">
+              <h2>About Us</h2>
+              <p>We are a licensed Class B Contractor (#1118503) serving the San Fernando Valley and surrounding areas. We specialize in transforming California homes with structural integrity, elite craftsmanship, and transparent management.</p>
+              <div class="neighborhood-grid">
+                <div class="neighborhood-item">
+                  <h4>Cornerstone Enterprise Solutions</h4>
+                  <p><a href="./">Home</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- GLANCE -->
+      <section class="glance-section section-padding">
+        <div class="container">
+          <div class="glance-grid-container">
+            <div class="glance-header animate-on-scroll animate-fade-left is-visible">
+              <h2>Cornerstone at a Glance</h2>
+              <p>We are a team of experienced professionals dedicated to delivering high-quality construction and remodeling services. Our commitment to excellence and customer satisfaction sets us apart.</p>
+            </div>
+            <div class="glance-stats-grid">
+              <div class="glance-item animate-on-scroll animate-fade-up stagger-1 is-visible">
+                <p class="stat">15+</p>
+                <p class="label">Years of Experience</p>
+              </div>
+              <div class="glance-item animate-on-scroll animate-fade-up stagger-2 is-visible">
+                <p class="stat">500+</p>
+                <p class="label">Completed Projects</p>
+              </div>
+              <div class="glance-item animate-on-scroll animate-fade-up stagger-3 is-visible">
+                <p class="stat">100%</p>
+                <p class="label">Satisfaction Rate</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- WHAT NEXT -->
+      <section class="what-next-section section-padding">
+        <div class="container animate-on-scroll animate-fade-up is-visible">
+          <h2>Get a Free Estimate</h2>
+          <p>Contact us today to start your project. We offer free estimates and consultations.</p>
+          <div class="what-next-links">
+            <a href="contact.html#get-in-touch">Start Here</a>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       FOOTER
+       ═══════════════════════════════════════════════════════════ -->
+  <footer id="grt-contacto" class="grt-footer">
+    <div class="grt-container">
+      <div class="grt-footer-top">
+        <div class="grt-footer-col grt-brand">
+          <h4>Cornerstone Enterprise Solutions</h4>
+          <div class="grt-contact-list">
+            <a href="mailto:info@cornerstoneenterprisesolution.com">info@cornerstoneenterprisesolution.com</a>
+            <a href="tel:2135102456">(213) 510-2456</a>
+          </div>
+          <div class="grt-brand-assets">
+            <a href="contact.html" class="grt-reclamaciones-link" target="_blank" rel="noopener noreferrer">
+              <img src="images/CES.png" alt="Cornerstone Logo">
+            </a>
+            <div class="grt-certificaciones-wrapper">
+              <span>Cornerstone Enterprise Solutions</span>
+            </div>
+          </div>
+        </div>
+        <div class="grt-footer-col">
+          <h4>About Us</h4>
+          <ul>
+            <li><a href="./">Home</a></li>
+          </ul>
+        </div>
+        <div class="grt-footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html#adu">ADU</a></li>
+            <li><a href="services.html#kitchen">Kitchen Remodel</a></li>
+            <li><a href="services.html#commercial">Commercial Build-outs</a></li>
+          </ul>
+        </div>
+        <div class="grt-footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="grt-footer-social-wrapper">
+        <div class="grt-footer-social grt-container">
+          <div class="grt-footer-social-links">
+            <a href="https://www.instagram.com/cornerstonees25/" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-instagram"></i> Instagram
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61586643292944" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-facebook"></i> Facebook
+            </a>
+          </div>
         </div>
       </div>
     </div>
-
-    <!-- ═══════════════════════════════════════════════════════════
-         CONTENIDO
-         ═══════════════════════════════════════════════════════════ -->
-    <div id="grt-inicio-wrapper">
-      <main>
-
-        <!-- HERO -->
-        <section class="hero-section">
-          <div class="container">
-            <div class="hero-grid animate-on-scroll animate-fade-up is-visible">
-              <div class="hero-text">
-                <h1>
-                  Premium General Contracting
-                  <br>
-                  &amp; Home Remodeling
-                  <br>
-                  <span class="impact">
-                    Cornerstone Enterprise Solutions
-                  </span>
-                </h1>
-                <p>
-                  We transform California homes with structural integrity, elite craftsmanship, and transparent management. Licensed Class B Contractor (#1118503).
-                </p>
-              </div>
-              <div class="latest-news-widget">
-                <div>
-                  <p class="news-title">Latest News</p>
-                  <div class="news-rotator" id="news-rotator">
-                    <div class="news-item">
-                      <a href="services.html#kitchen">
-                        <img src="https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uGXw5XrVCZMdRgzTe--kWVM6cn2mFFsMPcRxTjljAfDMVoTb7hB62T3gZVn-OCRrPDuQKxyHlYgdLO3C1wmmk35fP9wJ_mADPjB2m0kegX3Mp_dBL0vGPvHHIeuaWVBR28bw-BsKua_lZOdMpl3G_keYX0sy7dSkmLh4bn0V-cNwocT1_0vnXpgKJgAXRmkiv7csVSfaH2LS197pyiFILVz-77A-mpOlmCfMTeDCY=w1280" alt="Luxury Kitchen & Bath Remodeling">
-                        <h4>Luxury Kitchen &amp; Bath Remodeling</h4>
-                      </a>
-                    </div>
-                    <div class="news-item">
-                      <a href="services.html#adu">
-                        <img src="https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vdYIew2wLogp62G4YNXsLKMFVS2lN8XGHm8b37jC45EcxhgX4SIvmlgNfGgtpwBh-erh1nwMKqplVJsemZJy24duroAVa1adWKTyN37IldtnxY-GHLnmnFfYx65kRvMXBYo-iU5vbAky8bbkh7XX3wwsVn1fqJ8xdDAs1wnAErb-aZ-eK111chPsiFtebVtDlaPcIabKUgZqusCArAh3MdQonwfuogpwBsD7uI3OA=w1280" alt="Home Additions & ADUs">
-                        <h4>Home Additions &amp; ADUs</h4>
-                      </a>
-                    </div>
-                    <div class="news-item active">
-                      <a href="services.html#commercial">
-                        <img src="https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uUDh5XDn5wGHcPajrQZQ8V4J4k8sxTrSpbhZvkg8nLuHlPTgHXrrDTOLflcD6anWVVP-t8bd5cGhMufKeP9RKfOGQnkDCr7ayHazjsT8GixMwcg-hGweewRNNEv86GqaNVPRhmIUiuD9vtTh9B8OiJaDrxiZ4eyaR2ho3BSuFoAGpc9WD965rXWGpiObMNx8KPZmkOFpUCkxilN3Q3vC8FcJc2AvaCjvTq711z=w1280" alt="Commercial Build-Outs">
-                        <h4>Commercial Build-Outs &amp; Tenant Improvements</h4>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- SERVICIOS -->
-        <section class="property-listings-section section-padding">
-          <div class="container">
-            <div class="listings-header animate-on-scroll animate-fade-up is-visible">
-              <h2>Our Services</h2>
-            </div>
-            <div class="listings-grid">
-              <div class="property-card animate-on-scroll animate-fade-up stagger-1 is-visible">
-                <a href="services.html#kitchen" style="display: contents;">
-                  <div class="property-image">
-                    <div class="property-image-slider">
-                      <img src="https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uGXw5XrVCZMdRgzTe--kWVM6cn2mFFsMPcRxTjljAfDMVoTb7hB62T3gZVn-OCRrPDuQKxyHlYgdLO3C1wmmk35fP9wJ_mADPjB2m0kegX3Mp_dBL0vGPvHHIeuaWVBR28bw-BsKua_lZOdMpl3G_keYX0sy7dSkmLh4bn0V-cNwocT1_0vnXpgKJgAXRmkiv7csVSfaH2LS197pyiFILVz-77A-mpOlmCfMTeDCY=w1280" alt="Luxury Kitchen & Bath Remodeling" class="active">
-                    </div>
-                    <div class="status-badge en_venta">Remodeling</div>
-                  </div>
-                  <div class="property-info">
-                    <p class="property-address">Luxury Kitchen &amp; Bath Remodeling</p>
-                    <p class="property-subtitle">Upgrade your daily living with custom cabinetry, premium stone countertops, and spa-like master showers.</p>
-                  </div>
-                </a>
-              </div>
-              <div class="property-card animate-on-scroll animate-fade-up stagger-2 is-visible">
-                <a href="services.html#adu" style="display: contents;">
-                  <div class="property-image">
-                    <div class="property-image-slider">
-                      <img src="https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vdYIew2wLogp62G4YNXsLKMFVS2lN8XGHm8b37jC45EcxhgX4SIvmlgNfGgtpwBh-erh1nwMKqplVJsemZJy24duroAVa1adWKTyN37IldtnxY-GHLnmnFfYx65kRvMXBYo-iU5vbAky8bbkh7XX3wwsVn1fqJ8xdDAs1wnAErb-aZ-eK111chPsiFtebVtDlaPcIabKUgZqusCArAh3MdQonwfuogpwBsD7uI3OA=w1280" alt="Home Additions & ADUs" class="active">
-                    </div>
-                    <div class="status-badge en_venta">Additions</div>
-                  </div>
-                  <div class="property-info">
-                    <p class="property-address">Home Additions &amp; ADUs</p>
-                    <p class="property-subtitle">Need more space? We specialize in structural home extensions and Accessory Dwelling Units (ADUs).</p>
-                  </div>
-                </a>
-              </div>
-              <div class="property-card animate-on-scroll animate-fade-up stagger-3 is-visible">
-                <a href="services.html#commercial" style="display: contents;">
-                  <div class="property-image">
-                    <div class="property-image-slider">
-                      <img src="https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uUDh5XDn5wGHcPajrQZQ8V4J4k8sxTrSpbhZvkg8nLuHlPTgHXrrDTOLflcD6anWVVP-t8bd5cGhMufKeP9RKfOGQnkDCr7ayHazjsT8GixMwcg-hGweewRNNEv86GqaNVPRhmIUiuD9vtTh9B8OiJaDrxiZ4eyaR2ho3BSuFoAGpc9WD965rXWGpiObMNx8KPZmkOFpUCkxilN3Q3vC8FcJc2AvaCjvTq711z=w1280" alt="Commercial Build-Outs" class="active">
-                    </div>
-                    <div class="status-badge en_venta">Commercial</div>
-                  </div>
-                  <div class="property-info">
-                    <p class="property-address">Commercial Build-Outs</p>
-                    <p class="property-subtitle">Functional, durable, and professional spaces for your business. On-time and on-budget.</p>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="listings-footer animate-on-scroll animate-fade-up is-visible">
-              <a href="services.html" class="view-more-btn">View all services</a>
-            </div>
-          </div>
-        </section>
-
-        <!-- ABOUT US -->
-        <section class="info-section-2 section-padding">
-          <div class="container">
-            <div class="info-section-grid">
-              <div class="info-image animate-on-scroll animate-fade-left is-visible">
-                <img src="https://www.dailynews.com/wp-content/uploads/2019/06/LDN-L-SINGLE-FAMILY-0623-1.jpg?w=1572" alt="About Cornerstone">
-              </div>
-              <div class="info-text animate-on-scroll animate-fade-right is-visible">
-                <h2>About Us</h2>
-                <p>
-                  We are a licensed Class B Contractor (#1118503) serving the San Fernando Valley and surrounding areas. We specialize in transforming California homes with structural integrity, elite craftsmanship, and transparent management.
-                </p>
-                <div class="neighborhood-grid">
-                  <div class="neighborhood-item">
-                    <h4>Cornerstone Enterprise Solutions</h4>
-                    <p><a href="./">Home</a></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- GLANCE -->
-        <section class="glance-section section-padding">
-          <div class="container">
-            <div class="glance-grid-container">
-              <div class="glance-header animate-on-scroll animate-fade-left is-visible">
-                <h2>Cornerstone at a Glance</h2>
-                <p>
-                  We are a team of experienced professionals dedicated to delivering high-quality construction and remodeling services. Our commitment to excellence and customer satisfaction sets us apart.
-                </p>
-              </div>
-              <div class="glance-stats-grid">
-                <div class="glance-item animate-on-scroll animate-fade-up stagger-1 is-visible">
-                  <p class="stat">15+</p>
-                  <p class="label">Years of Experience</p>
-                </div>
-                <div class="glance-item animate-on-scroll animate-fade-up stagger-2 is-visible">
-                  <p class="stat">500+</p>
-                  <p class="label">Completed Projects</p>
-                </div>
-                <div class="glance-item animate-on-scroll animate-fade-up stagger-3 is-visible">
-                  <p class="stat">100%</p>
-                  <p class="label">Satisfaction Rate</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- WHAT NEXT -->
-        <section class="what-next-section section-padding">
-          <div class="container animate-on-scroll animate-fade-up is-visible">
-            <h2>Get a Free Estimate</h2>
-            <p>
-              Contact us today to start your project. We offer free estimates and consultations.
-            </p>
-            <div class="what-next-links">
-              <a href="contact.html#get-in-touch">Start Here</a>
-            </div>
-          </div>
-        </section>
-      </main>
-    </div>
-
-    <!-- ═══════════════════════════════════════════════════════════
-         FOOTER
-         ═══════════════════════════════════════════════════════════ -->
-    <footer id="grt-contacto" class="grt-footer">
+    <div class="grt-footer-bottom">
       <div class="grt-container">
-        <div class="grt-footer-top">
-          <div class="grt-footer-col grt-brand">
-            <h4>Cornerstone Enterprise Solutions</h4>
-            <div class="grt-contact-list">
-              <a href="mailto:info@cornerstoneenterprisesolution.com">info@cornerstoneenterprisesolution.com</a>
-              <a href="tel:2135102456">(213) 510-2456</a>
-            </div>
-            <div class="grt-brand-assets">
-              <a href="contact.html" class="grt-reclamaciones-link" target="_blank" rel="noopener noreferrer">
-                <img src="https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72t9gECBA8sZPlsJcQIcM2hhwe943eWw-_0BqQ2NzYfa8CL0a1NV0oWa6FaqG7vceu0l9Blr-nlsnC3vHagB7t-vtQUUVtwvjbAQlhQsxBSI9LT4-68Jg3_9kHznlyKYkhpK1UgRUWkIKZ1d7DbJnOFd0pJRarHeIgCIAr2TM8hycLhLWHPlGWZdbTDV89wfoxMltcyB5C4gW-GteI4A_LAwYsXsvle_LD_cscEP=w1280" alt="Cornerstone Logo">
-              </a>
-              <div class="grt-certificaciones-wrapper">
-                <span>Cornerstone Enterprise Solutions</span>
-              </div>
-            </div>
-          </div>
-          <div class="grt-footer-col">
-            <h4>About Us</h4>
-            <ul>
-              <li><a href="./">Home</a></li>
-            </ul>
-          </div>
-          <div class="grt-footer-col">
-            <h4>Services</h4>
-            <ul>
-              <li><a href="services.html#adu">ADU</a></li>
-              <li><a href="services.html#kitchen">Kitchen Remodel</a></li>
-              <li><a href="services.html#commercial">Commercial Build-outs</a></li>
-            </ul>
-          </div>
-          <div class="grt-footer-col">
-            <h4>Contact</h4>
-            <ul>
-              <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-          </div>
+        <div class="grt-ahs-link">
+          <img src="images/CES.png" alt="Cornerstone Enterprise Solutions Logo">
+          <span>Protect your home and budget.</span>
         </div>
-        <div class="grt-footer-social-wrapper">
-          <div class="grt-footer-social grt-container">
-            <div class="grt-footer-social-links">
-              <a href="https://www.instagram.com/cornerstonees25/" target="_blank" rel="noopener noreferrer">
-                <i class="fa-brands fa-instagram"></i> Instagram
-              </a>
-              <a href="https://www.facebook.com/profile.php?id=61586643292944" target="_blank" rel="noopener noreferrer">
-                <i class="fa-brands fa-facebook"></i> Facebook
-              </a>
-            </div>
-          </div>
-        </div>
+        <p class="grt-copyright">©2026 Cornerstone Enterprise Solutions. All rights reserved. Licensed Class B Contractor (#1118503).</p>
       </div>
-      <div class="grt-footer-bottom">
-        <div class="grt-container">
-          <div class="grt-ahs-link">
-            <img src="https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72t9gECBA8sZPlsJcQIcM2hhwe943eWw-_0BqQ2NzYfa8CL0a1NV0oWa6FaqG7vceu0l9Blr-nlsnC3vHagB7t-vtQUUVtwvjbAQlhQsxBSI9LT4-68Jg3_9kHznlyKYkhpK1UgRUWkIKZ1d7DbJnOFd0pJRarHeIgCIAr2TM8hycLhLWHPlGWZdbTDV89wfoxMltcyB5C4gW-GteI4A_LAwYsXsvle_LD_cscEP=w1280" class="attachment-large size-large" alt="" decoding="async" fetchpriority="high" alt="Cornerstone Enterprise Solutions Logo">
-            <span>Protect your home and budget.</span>
-          </div>
-          <p class="grt-copyright">
-            ©2026 Cornerstone Enterprise Solutions. All rights reserved. Licensed Class B Contractor (#1118503).
-          </p>
-        </div>
-      </div>
-    </footer>
+    </div>
+  </footer>
 
-    <!-- ═══════════════════════════════════════════════════════════
-         SCRIPTS
-         ═══════════════════════════════════════════════════════════ -->
-    <script>
-      document.addEventListener('DOMContentLoaded', () => {
-        /* Rotador de noticias */
-        const newsRotator = document.getElementById('news-rotator');
-        if (newsRotator) {
-          const newsItems = newsRotator.querySelectorAll('.news-item');
-          let idx = 0;
-          if (newsItems.length > 1) {
-            setInterval(() => {
-              newsItems[idx].classList.remove('active');
-              idx = (idx + 1) % newsItems.length;
-              newsItems[idx].classList.add('active');
-            }, 5000);
-          }
-        }
-
-        /* Animaciones al scroll */
-        const animatedElements = document.querySelectorAll('#grt-inicio-wrapper .animate-on-scroll');
-        if (animatedElements.length > 0) {
-          const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-              if (entry.isIntersecting) {
-                entry.target.classList.add('is-visible');
-                observer.unobserve(entry.target);
-              }
-            });
-          }, { threshold: 0.1 });
-          animatedElements.forEach(el => observer.observe(el));
-        }
-
-        /* Header sticky */
-        const header = document.querySelector('.grt-header');
-        const spacer = document.getElementById('grt-header-spacer');
-        if (header && spacer) {
-          const headerHeight = header.offsetHeight;
-          spacer.style.height = headerHeight + 'px';
-          const handleScroll = () => {
-            if (window.pageYOffset > 40) {
-              header.classList.add('sticky-active');
-              spacer.classList.add('active');
-            } else {
-              header.classList.remove('sticky-active');
-              spacer.classList.remove('active');
-            }
-          };
-          window.addEventListener('scroll', handleScroll, { passive: true });
-          handleScroll();
-        }
-
-        /* Menú móvil */
-        const hamburger = document.getElementById('grt-hamburger-menu');
-        const modal = document.getElementById('grt-mobile-menu-modal');
-        const closeBtn = document.getElementById('grt-close-menu-button');
-        const body = document.body;
-        const openModal = () => {
-          if (modal) modal.classList.add('active');
-          if (body) body.classList.add('grt-modal-open');
-          if (hamburger) hamburger.classList.add('is-active');
-        };
-        const closeModal = () => {
-          if (modal) modal.classList.remove('active');
-          if (body) body.classList.remove('grt-modal-open');
-          if (hamburger) hamburger.classList.remove('is-active');
-        };
-        if (hamburger && modal && closeBtn) {
-          hamburger.addEventListener('click', openModal);
-          closeBtn.addEventListener('click', closeModal);
-          modal.querySelectorAll('a').forEach(link => {
-            link.addEventListener('click', closeModal);
-          });
-        }
-      });
-    </script>
-  </body>
+  <!-- Scripts (SOLO externos, sin duplicar inline) -->
+  <script src="js/main.js" defer></script>
+  <script src="js/home.js" defer></script>
+</body>
 </html>

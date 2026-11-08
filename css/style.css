@@ -362,6 +362,18 @@ body.grt-modal-open { overflow: hidden; }
   display: flex; align-items: center; gap: 20px;
 }
 .grt-footer .grt-brand .grt-reclamaciones-link { display: inline-block; max-width: 120px; flex-shrink: 0; }
+.grt-footer .grt-brand-assets img {
+  max-height: 50px;
+  width: auto;
+  max-width: 160px;
+  object-fit: contain;
+}
+.grt-footer .grt-ahs-link img {
+  height: 25px;
+  max-width: 200px;
+  width: auto;
+  object-fit: contain;
+}
 .grt-footer .grt-certificaciones-wrapper { display: flex; flex-wrap: wrap; gap: 15px; align-items: center; }
 .grt-footer .grt-certificaciones-wrapper span {
   font-family: var(--grt-font-heading);
@@ -370,6 +382,18 @@ body.grt-modal-open { overflow: hidden; }
   color: #fff;
   letter-spacing: 0.5px;
   text-transform: uppercase;
+}
+.grt-footer .grt-brand-assets img {
+  max-height: 50px;
+  width: auto;
+  max-width: 160px;
+  object-fit: contain;
+}
+.grt-footer .grt-ahs-link img {
+  height: 25px;
+  max-width: 200px;
+  width: auto;
+  object-fit: contain;
 }
 
 @media (max-width: 1200px) {
@@ -482,7 +506,7 @@ body.grt-modal-open { overflow: hidden; }
 }
 #grt-inicio-wrapper .hero-grid {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 1fr;
   align-items: flex-end;
   gap: 60px;
   position: relative;
@@ -551,7 +575,10 @@ body.grt-modal-open { overflow: hidden; }
 
 /* CARDS DE SERVICIOS */
 #grt-inicio-wrapper .property-listings-section { background-color: #fff; }
-#grt-inicio-wrapper .listings-header { margin-bottom: 50px; }
+#grt-inicio-wrapper .listings-header {
+  margin-bottom: 50px;
+  text-align: left;
+}
 #grt-inicio-wrapper .listings-header h2 {
   font-size: clamp(2rem, 4.5vw, 2.8rem);
   font-weight: 800;
@@ -581,6 +608,14 @@ body.grt-modal-open { overflow: hidden; }
   flex-direction: column;
   height: 100%;
   position: relative;
+}
+/* Fix: el <a> dentro de la card debe ocupar todo el espacio */
+#grt-inicio-wrapper .property-card > a {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
 }
 #grt-inicio-wrapper .property-card::before {
   content: "";
